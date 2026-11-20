@@ -1,0 +1,4835 @@
+{
+  "duplicates": [],
+  "checks": [
+    {
+      "name": "Tööjõud = hõivatud + töötud",
+      "source": "TT330",
+      "checked": 2316,
+      "maxResidual": 0.10000000000013642,
+      "tolerance": 0.15,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Rahvastik = tööjõud + mitteaktiivsed",
+      "source": "TT330",
+      "checked": 2757,
+      "maxResidual": 0.10000000000013642,
+      "tolerance": 0.15,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Tööjõud = hõivatud + töötud",
+      "source": "TT115",
+      "checked": 2432,
+      "maxResidual": 0.10000000000013642,
+      "tolerance": 0.15,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Rahvastik = tööjõud + mitteaktiivsed",
+      "source": "TT115",
+      "checked": 3730,
+      "maxResidual": 0.10000000000013642,
+      "tolerance": 0.15,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Tööjõud = hõivatud + töötud",
+      "source": "TT0151",
+      "checked": 101,
+      "maxResidual": 0.10000000000013642,
+      "tolerance": 0.15,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Rahvastik = tööjõud + mitteaktiivsed",
+      "source": "TT0151",
+      "checked": 120,
+      "maxResidual": 0.10000000000013642,
+      "tolerance": 0.15,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "TT115 üldrühmad versus TT330 sama lahter",
+      "checked": 2772,
+      "maxResidual": 0,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Eurostati neli üksteist välistavat seisundit = 100%",
+      "checked": 394,
+      "maxResidual": 0.10000000000002274,
+      "tolerance": 0.21,
+      "violations": 0
+    },
+    {
+      "name": "Määr vastab arvude ümardusvahemikule",
+      "source": "TT330",
+      "checked": 7876,
+      "maxResidual": 0,
+      "tolerance": 0,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Määr vastab arvude ümardusvahemikule",
+      "source": "TT115",
+      "checked": 11291,
+      "maxResidual": 0,
+      "tolerance": 0,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Määr vastab arvude ümardusvahemikule",
+      "source": "TT0151",
+      "checked": 341,
+      "maxResidual": 0,
+      "tolerance": 0,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Määr vastab arvude ümardusvahemikule",
+      "source": "TT0160",
+      "checked": 1452,
+      "maxResidual": 0,
+      "tolerance": 0,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "Määr vastab arvude ümardusvahemikule",
+      "source": "TT332",
+      "checked": 9204,
+      "maxResidual": 0,
+      "tolerance": 0,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "name": "NH06 seisundite summa = rahvastik (inimest)",
+      "source": "NH06",
+      "checked": 9,
+      "maxResidual": 0,
+      "tolerance": 0,
+      "violations": 0
+    }
+  ],
+  "missing": [
+    {
+      "source": "TT330",
+      "total": 23976,
+      "missing": 2541,
+      "flags": {
+        "..": 1584,
+        ".": 957
+      }
+    },
+    {
+      "source": "TT0151",
+      "total": 960,
+      "missing": 38,
+      "flags": {
+        ".": 38
+      }
+    },
+    {
+      "source": "TT115",
+      "total": 61074,
+      "missing": 10549,
+      "flags": {
+        ".": 10549
+      }
+    },
+    {
+      "source": "TT45",
+      "total": 3016,
+      "missing": 580,
+      "flags": {
+        "..": 401,
+        ".": 179
+      }
+    },
+    {
+      "source": "TT43",
+      "total": 2145,
+      "missing": 444,
+      "flags": {
+        "..": 410,
+        ".": 34
+      }
+    },
+    {
+      "source": "TT51",
+      "total": 3510,
+      "missing": 852,
+      "flags": {
+        ".": 528,
+        "..": 324
+      }
+    },
+    {
+      "source": "TT161",
+      "total": 9918,
+      "missing": 1072,
+      "flags": {
+        ".": 316,
+        "..": 756
+      }
+    },
+    {
+      "source": "TT171",
+      "total": 7308,
+      "missing": 1250,
+      "flags": {
+        "..": 1134,
+        ".": 116
+      }
+    },
+    {
+      "source": "TT209",
+      "total": 5328,
+      "missing": 1500,
+      "flags": {
+        "..": 1488,
+        ".": 12
+      }
+    },
+    {
+      "source": "TT220",
+      "total": 29376,
+      "missing": 12557,
+      "flags": {
+        "..": 11679,
+        ".": 878
+      }
+    },
+    {
+      "source": "TT0160",
+      "total": 4200,
+      "missing": 246,
+      "flags": {
+        ".": 246
+      }
+    },
+    {
+      "source": "LES39",
+      "total": 11232,
+      "missing": 3462,
+      "flags": {
+        "..": 3186,
+        ".": 276
+      }
+    },
+    {
+      "source": "LES11",
+      "total": 182,
+      "missing": 12,
+      "flags": {
+        ".": 12
+      }
+    },
+    {
+      "source": "LES01",
+      "total": 3915,
+      "missing": 2358,
+      "flags": {
+        "..": 2275,
+        ".": 83
+      }
+    },
+    {
+      "source": "HTG11",
+      "total": 3564,
+      "missing": 672,
+      "flags": {
+        "..": 672
+      }
+    },
+    {
+      "source": "RV021",
+      "total": 2850,
+      "missing": 324,
+      "flags": {
+        "..": 324
+      }
+    },
+    {
+      "source": "RV0212",
+      "total": 9720,
+      "missing": 180,
+      "flags": {
+        "..": 180
+      }
+    },
+    {
+      "source": "RVR03",
+      "total": 4446,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "NH06",
+      "total": 54,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "NH24",
+      "total": 60,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "RL21132",
+      "total": 162,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "RL0132",
+      "total": 90,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "RL407",
+      "total": 540,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "RL007",
+      "total": 1071,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "TT332",
+      "total": 34800,
+      "missing": 10212,
+      "flags": {
+        "..": 10080,
+        ".": 132
+      }
+    },
+    {
+      "source": "ST005",
+      "total": 450,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "ST004",
+      "total": 300,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "PA640",
+      "total": 660,
+      "missing": 62,
+      "flags": {
+        ".": 57,
+        "..": 5
+      }
+    },
+    {
+      "source": "PA623",
+      "total": 120,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "PA636",
+      "total": 1200,
+      "missing": 15,
+      "flags": {
+        ".": 2,
+        "..": 13
+      }
+    },
+    {
+      "source": "PA628",
+      "total": 144,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "PA101",
+      "total": 1200,
+      "missing": 20,
+      "flags": {
+        "..": 20
+      }
+    },
+    {
+      "source": "IA001",
+      "total": 351,
+      "missing": 0,
+      "flags": {}
+    },
+    {
+      "source": "TT0201",
+      "total": 27528,
+      "missing": 7162,
+      "flags": {
+        ".": 7162
+      }
+    },
+    {
+      "source": "TT2119",
+      "total": 6864,
+      "missing": 1694,
+      "flags": {
+        ".": 506,
+        "..": 1188
+      }
+    }
+  ],
+  "bridge": [
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 41.2,
+      "updated": 40.8,
+      "difference": -0.4000000000000057
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 11.8,
+      "updated": 12,
+      "difference": 0.1999999999999993
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 126.8,
+      "updated": 123.2,
+      "difference": -3.5999999999999943
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 52.2,
+      "updated": 50.3,
+      "difference": -1.9000000000000057
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 39.1,
+      "updated": 38.6,
+      "difference": -0.5
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 11.1,
+      "updated": 11.6,
+      "difference": 0.5
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 125.9,
+      "updated": 122.2,
+      "difference": -3.700000000000003
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 49.2,
+      "updated": 47.1,
+      "difference": -2.1000000000000014
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 34.7,
+      "updated": 34.5,
+      "difference": -0.20000000000000284
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 17.9,
+      "updated": 18.3,
+      "difference": 0.40000000000000213
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 126,
+      "updated": 122.3,
+      "difference": -3.700000000000003
+    },
+    {
+      "age": "Y15-24",
+      "sex": "T",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 43.8,
+      "updated": 42.2,
+      "difference": -1.5999999999999943
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 42.4,
+      "updated": 41.3,
+      "difference": -1.1000000000000014
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 12.3,
+      "updated": 12.9,
+      "difference": 0.5999999999999996
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 65,
+      "updated": 61.8,
+      "difference": -3.200000000000003
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 27.6,
+      "updated": 25.5,
+      "difference": -2.1000000000000014
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 40.1,
+      "updated": 39.2,
+      "difference": -0.8999999999999986
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 10.5,
+      "updated": 11.2,
+      "difference": 0.6999999999999993
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 64.4,
+      "updated": 60.9,
+      "difference": -3.500000000000007
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 25.9,
+      "updated": 23.9,
+      "difference": -2
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 35.9,
+      "updated": 35,
+      "difference": -0.8999999999999986
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 17.4,
+      "updated": 18.4,
+      "difference": 1
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 64.6,
+      "updated": 61.1,
+      "difference": -3.499999999999993
+    },
+    {
+      "age": "Y15-24",
+      "sex": "M",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 23.2,
+      "updated": 21.4,
+      "difference": -1.8000000000000007
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 39.9,
+      "updated": 40.4,
+      "difference": 0.5
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 11.4,
+      "updated": 11.1,
+      "difference": -0.3000000000000007
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 61.7,
+      "updated": 61.4,
+      "difference": -0.30000000000000426
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 24.6,
+      "updated": 24.8,
+      "difference": 0.1999999999999993
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 38,
+      "updated": 37.9,
+      "difference": -0.10000000000000142
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 11.7,
+      "updated": 12,
+      "difference": 0.3000000000000007
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 61.5,
+      "updated": 61.3,
+      "difference": -0.20000000000000284
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 23.4,
+      "updated": 23.2,
+      "difference": -0.1999999999999993
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 33.5,
+      "updated": 34.1,
+      "difference": 0.6000000000000014
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 18.4,
+      "updated": 18.3,
+      "difference": -0.09999999999999787
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 61.4,
+      "updated": 61.2,
+      "difference": -0.19999999999999574
+    },
+    {
+      "age": "Y15-24",
+      "sex": "F",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 20.6,
+      "updated": 20.9,
+      "difference": 0.29999999999999716
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 80.4,
+      "updated": 80.9,
+      "difference": 0.5
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 4.8,
+      "updated": 4.8,
+      "difference": 0
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 718.8,
+      "updated": 713.2,
+      "difference": -5.599999999999909
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 578,
+      "updated": 577.2,
+      "difference": -0.7999999999999545
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 81.3,
+      "updated": 81.9,
+      "difference": 0.6000000000000085
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 4,
+      "updated": 4,
+      "difference": 0
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 719.6,
+      "updated": 714.6,
+      "difference": -5
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 584.9,
+      "updated": 584.9,
+      "difference": 0
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 80.3,
+      "updated": 80.8,
+      "difference": 0.5
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 6.1,
+      "updated": 6.1,
+      "difference": 0
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 718,
+      "updated": 713.6,
+      "difference": -4.399999999999977
+    },
+    {
+      "age": "Y25-64",
+      "sex": "T",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 576.4,
+      "updated": 576.3,
+      "difference": -0.10000000000002274
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 84.1,
+      "updated": 83.9,
+      "difference": -0.19999999999998863
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 4.7,
+      "updated": 4.9,
+      "difference": 0.20000000000000018
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 357,
+      "updated": 353,
+      "difference": -4
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 300.3,
+      "updated": 296.1,
+      "difference": -4.199999999999989
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 84.9,
+      "updated": 84.7,
+      "difference": -0.20000000000000284
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 3.6,
+      "updated": 3.6,
+      "difference": 0
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 359.2,
+      "updated": 355.3,
+      "difference": -3.8999999999999773
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 305.1,
+      "updated": 301,
+      "difference": -4.100000000000023
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 83.2,
+      "updated": 82.9,
+      "difference": -0.29999999999999716
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 6.2,
+      "updated": 6.3,
+      "difference": 0.09999999999999964
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 359.9,
+      "updated": 356.6,
+      "difference": -3.2999999999999545
+    },
+    {
+      "age": "Y25-64",
+      "sex": "M",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 299.5,
+      "updated": 295.6,
+      "difference": -3.8999999999999773
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 76.8,
+      "updated": 78,
+      "difference": 1.2000000000000028
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 4.9,
+      "updated": 4.8,
+      "difference": -0.10000000000000053
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 361.8,
+      "updated": 360.3,
+      "difference": -1.5
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 277.7,
+      "updated": 281.1,
+      "difference": 3.400000000000034
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 77.6,
+      "updated": 79,
+      "difference": 1.4000000000000057
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 4.5,
+      "updated": 4.4,
+      "difference": -0.09999999999999964
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 360.4,
+      "updated": 359.3,
+      "difference": -1.099999999999966
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 279.8,
+      "updated": 283.9,
+      "difference": 4.099999999999966
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 77.3,
+      "updated": 78.6,
+      "difference": 1.2999999999999972
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 5.9,
+      "updated": 5.9,
+      "difference": 0
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 358.1,
+      "updated": 357.1,
+      "difference": -1
+    },
+    {
+      "age": "Y25-64",
+      "sex": "F",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 276.9,
+      "updated": 280.6,
+      "difference": 3.7000000000000455
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 68.1,
+      "updated": 68.5,
+      "difference": 0.4000000000000057
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 5.4,
+      "updated": 5.4,
+      "difference": 0
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 976.7,
+      "updated": 965.6,
+      "difference": -11.100000000000023
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 664.7,
+      "updated": 661.6,
+      "difference": -3.1000000000000227
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 68.4,
+      "updated": 68.9,
+      "difference": 0.5
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 4.4,
+      "updated": 4.5,
+      "difference": 0.09999999999999964
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 981,
+      "updated": 970.3,
+      "difference": -10.700000000000045
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 671.3,
+      "updated": 668.3,
+      "difference": -3
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 66.7,
+      "updated": 67.1,
+      "difference": 0.3999999999999915
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 6.8,
+      "updated": 6.9,
+      "difference": 0.10000000000000053
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 984.2,
+      "updated": 974.2,
+      "difference": -10
+    },
+    {
+      "age": "Y15-74",
+      "sex": "T",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 656.6,
+      "updated": 653.8,
+      "difference": -2.800000000000068
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 72.3,
+      "updated": 72.2,
+      "difference": -0.09999999999999432
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 5.4,
+      "updated": 5.6,
+      "difference": 0.1999999999999993
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 473.9,
+      "updated": 465.6,
+      "difference": -8.299999999999955
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 342.4,
+      "updated": 335.9,
+      "difference": -6.5
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 72.5,
+      "updated": 72.4,
+      "difference": -0.09999999999999432
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 4.1,
+      "updated": 4.1,
+      "difference": 0
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 477.4,
+      "updated": 468.9,
+      "difference": -8.5
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 346.1,
+      "updated": 339.7,
+      "difference": -6.400000000000034
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 70.3,
+      "updated": 70.2,
+      "difference": -0.09999999999999432
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 7,
+      "updated": 7.1,
+      "difference": 0.09999999999999964
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 480.4,
+      "updated": 472.5,
+      "difference": -7.899999999999977
+    },
+    {
+      "age": "Y15-74",
+      "sex": "M",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 337.9,
+      "updated": 331.6,
+      "difference": -6.2999999999999545
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2018,
+      "metric": "EMPRATE",
+      "old": 64.1,
+      "updated": 65.1,
+      "difference": 1
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2018,
+      "metric": "UNEMP_RATE",
+      "old": 5.3,
+      "updated": 5.2,
+      "difference": -0.09999999999999964
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2018,
+      "metric": "LABOUR_INACT",
+      "old": 502.8,
+      "updated": 500.1,
+      "difference": -2.6999999999999886
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2018,
+      "metric": "EMP_NR",
+      "old": 322.3,
+      "updated": 325.6,
+      "difference": 3.3000000000000114
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2019,
+      "metric": "EMPRATE",
+      "old": 64.6,
+      "updated": 65.5,
+      "difference": 0.9000000000000057
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2019,
+      "metric": "UNEMP_RATE",
+      "old": 4.8,
+      "updated": 4.8,
+      "difference": 0
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2019,
+      "metric": "LABOUR_INACT",
+      "old": 503.6,
+      "updated": 501.4,
+      "difference": -2.2000000000000455
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2019,
+      "metric": "EMP_NR",
+      "old": 325.2,
+      "updated": 328.6,
+      "difference": 3.400000000000034
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2020,
+      "metric": "EMPRATE",
+      "old": 63.3,
+      "updated": 64.2,
+      "difference": 0.9000000000000057
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2020,
+      "metric": "UNEMP_RATE",
+      "old": 6.6,
+      "updated": 6.6,
+      "difference": 0
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2020,
+      "metric": "LABOUR_INACT",
+      "old": 503.8,
+      "updated": 501.7,
+      "difference": -2.1000000000000227
+    },
+    {
+      "age": "Y15-74",
+      "sex": "F",
+      "year": 2020,
+      "metric": "EMP_NR",
+      "old": 318.7,
+      "updated": 322.2,
+      "difference": 3.5
+    }
+  ],
+  "neetCheck": [
+    {
+      "year": 2000,
+      "stat": 15.8,
+      "euro": 14.7,
+      "difference": 1.1000000000000014
+    },
+    {
+      "year": 2001,
+      "stat": 15.9,
+      "euro": 15.5,
+      "difference": 0.40000000000000036
+    },
+    {
+      "year": 2002,
+      "stat": 11.4,
+      "euro": 10.7,
+      "difference": 0.7000000000000011
+    },
+    {
+      "year": 2003,
+      "stat": 11.7,
+      "euro": 10.5,
+      "difference": 1.1999999999999993
+    },
+    {
+      "year": 2004,
+      "stat": 13,
+      "euro": 12.5,
+      "difference": 0.5
+    },
+    {
+      "year": 2005,
+      "stat": 10.9,
+      "euro": 10.6,
+      "difference": 0.3000000000000007
+    },
+    {
+      "year": 2006,
+      "stat": 8.9,
+      "euro": 8.8,
+      "difference": 0.09999999999999964
+    },
+    {
+      "year": 2007,
+      "stat": 9.4,
+      "euro": 8.9,
+      "difference": 0.5
+    },
+    {
+      "year": 2008,
+      "stat": 9.1,
+      "euro": 8.7,
+      "difference": 0.40000000000000036
+    },
+    {
+      "year": 2009,
+      "stat": 14.5,
+      "euro": 14.5,
+      "difference": 0
+    },
+    {
+      "year": 2010,
+      "stat": 14,
+      "euro": 14,
+      "difference": 0
+    },
+    {
+      "year": 2011,
+      "stat": 11.6,
+      "euro": 11.6,
+      "difference": 0
+    },
+    {
+      "year": 2012,
+      "stat": 12.2,
+      "euro": 12.2,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "stat": 11.3,
+      "euro": 11.3,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "stat": 11.7,
+      "euro": 11.7,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "stat": 10.8,
+      "euro": 11.5,
+      "difference": -0.6999999999999993
+    },
+    {
+      "year": 2016,
+      "stat": 9.1,
+      "euro": 9.6,
+      "difference": -0.5
+    },
+    {
+      "year": 2017,
+      "stat": 9.4,
+      "euro": 10,
+      "difference": -0.5999999999999996
+    },
+    {
+      "year": 2018,
+      "stat": 9.8,
+      "euro": 10.3,
+      "difference": -0.5
+    },
+    {
+      "year": 2019,
+      "stat": 6.9,
+      "euro": 7.9,
+      "difference": -1
+    },
+    {
+      "year": 2020,
+      "stat": 8.9,
+      "euro": 9.2,
+      "difference": -0.29999999999999893
+    },
+    {
+      "year": 2021,
+      "stat": 10.9,
+      "euro": 10.9,
+      "difference": 0
+    },
+    {
+      "year": 2022,
+      "stat": 10.7,
+      "euro": 10.7,
+      "difference": 0
+    },
+    {
+      "year": 2023,
+      "stat": 9.6,
+      "euro": 9.6,
+      "difference": 0
+    },
+    {
+      "year": 2024,
+      "stat": 10.2,
+      "euro": 10.2,
+      "difference": 0
+    },
+    {
+      "year": 2025,
+      "stat": 10.9,
+      "euro": 10.9,
+      "difference": 0
+    }
+  ],
+  "nhCheck": [
+    {
+      "year": 2005,
+      "nh": 12.1,
+      "les": 12.1,
+      "difference": 0
+    },
+    {
+      "year": 2006,
+      "nh": 10.1,
+      "les": 10.1,
+      "difference": 0
+    },
+    {
+      "year": 2007,
+      "nh": 10.5,
+      "les": 10.5,
+      "difference": 0
+    },
+    {
+      "year": 2008,
+      "nh": 10.3,
+      "les": 10.3,
+      "difference": 0
+    },
+    {
+      "year": 2009,
+      "nh": 16.3,
+      "les": 16.3,
+      "difference": 0
+    },
+    {
+      "year": 2010,
+      "nh": 16,
+      "les": 16,
+      "difference": 0
+    },
+    {
+      "year": 2011,
+      "nh": 12.6,
+      "les": 12.6,
+      "difference": 0
+    },
+    {
+      "year": 2012,
+      "nh": 13.5,
+      "les": 13.5,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "nh": 12.4,
+      "les": 12.4,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "nh": 12.6,
+      "les": 12.6,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "nh": 11,
+      "les": 11,
+      "difference": 0
+    },
+    {
+      "year": 2016,
+      "nh": 11,
+      "les": 11,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "nh": 9.9,
+      "les": 9.9,
+      "difference": 0
+    },
+    {
+      "year": 2018,
+      "nh": 10.4,
+      "les": 10.4,
+      "difference": 0
+    },
+    {
+      "year": 2019,
+      "nh": 7.6,
+      "les": 7.6,
+      "difference": 0
+    },
+    {
+      "year": 2020,
+      "nh": 10,
+      "les": 10,
+      "difference": 0
+    },
+    {
+      "year": 2021,
+      "nh": 10.8,
+      "les": 10.8,
+      "difference": 0
+    },
+    {
+      "year": 2022,
+      "nh": 10.5,
+      "les": 10.5,
+      "difference": 0
+    },
+    {
+      "year": 2023,
+      "nh": 9.6,
+      "les": 9.6,
+      "difference": 0
+    },
+    {
+      "year": 2024,
+      "nh": 10.5,
+      "les": 10.5,
+      "difference": 0
+    }
+  ],
+  "outOfBounds": [
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "1996",
+      "value": 100.2,
+      "raw": "100.2",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "1998",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2000",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2001",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2003",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2004",
+      "value": 100.7,
+      "raw": "100.7",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1996",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1997",
+      "value": 101.9,
+      "raw": "101.9",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1999",
+      "value": 102.4,
+      "raw": "102.4",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2000",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2001",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2002",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2004",
+      "value": 101,
+      "raw": "101.0",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2005",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2005"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "1997",
+      "value": 100.2,
+      "raw": "100.2",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "1998",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2000",
+      "value": 101.6,
+      "raw": "101.6",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2001",
+      "value": 101.2,
+      "raw": "101.2",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2002",
+      "value": 100.2,
+      "raw": "100.2",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2003",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2006",
+      "value": 100.2,
+      "raw": "100.2",
+      "period": "2006"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1994",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "1994"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1997",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1998",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1999",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "2001",
+      "value": 101,
+      "raw": "101.0",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1995",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "1995"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1996",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1998",
+      "value": 101.6,
+      "raw": "101.6",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1999",
+      "value": 101.5,
+      "raw": "101.5",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2000",
+      "value": 101.7,
+      "raw": "101.7",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2002",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2005",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "2005"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1994",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "1994"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1996",
+      "value": 102.2,
+      "raw": "102.2",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1997",
+      "value": 101.3,
+      "raw": "101.3",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1998",
+      "value": 100.2,
+      "raw": "100.2",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1999",
+      "value": 101.9,
+      "raw": "101.9",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2000",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2001",
+      "value": 101.7,
+      "raw": "101.7",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2003",
+      "value": 101,
+      "raw": "101.0",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2006",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2006"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "1995",
+      "value": 100.2,
+      "raw": "100.2",
+      "period": "1995"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "1999",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2000",
+      "value": 101.5,
+      "raw": "101.5",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2001",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2002",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2004",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2007",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2007"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "2005",
+      "value": 101,
+      "raw": "101.0",
+      "period": "2005"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "T",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "2008",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "2008"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "1995",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "1995"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "1996",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "1998",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2000",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2001",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2003",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2004",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1996",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1997",
+      "value": 102,
+      "raw": "102.0",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1999",
+      "value": 102.1,
+      "raw": "102.1",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2001",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2002",
+      "value": 101.2,
+      "raw": "101.2",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2004",
+      "value": 101,
+      "raw": "101.0",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "1997",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "1998",
+      "value": 101.3,
+      "raw": "101.3",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2000",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2001",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2003",
+      "value": 101.3,
+      "raw": "101.3",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1994",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "1994"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1997",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1998",
+      "value": 101.2,
+      "raw": "101.2",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1999",
+      "value": 102,
+      "raw": "102.0",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "2001",
+      "value": 101.5,
+      "raw": "101.5",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1995",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "1995"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1997",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1998",
+      "value": 101.6,
+      "raw": "101.6",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1999",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2000",
+      "value": 102,
+      "raw": "102.0",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2002",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2005",
+      "value": 101.6,
+      "raw": "101.6",
+      "period": "2005"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1996",
+      "value": 102.1,
+      "raw": "102.1",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1997",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1998",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1999",
+      "value": 100.7,
+      "raw": "100.7",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2000",
+      "value": 101.2,
+      "raw": "101.2",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2001",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2003",
+      "value": 101.8,
+      "raw": "101.8",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2006",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "2006"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "1999",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2000",
+      "value": 101.6,
+      "raw": "101.6",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2001",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2002",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2004",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2007",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "2007"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "2005",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "2005"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "M",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "2008",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "2008"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "1998",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2001",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2002",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2003",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2004",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y8",
+      "Vaatlusperiood": "2008",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2008"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1997",
+      "value": 101.8,
+      "raw": "101.8",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "1999",
+      "value": 102.6,
+      "raw": "102.6",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2000",
+      "value": 101.3,
+      "raw": "101.3",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2004",
+      "value": 101,
+      "raw": "101.0",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2005",
+      "value": 101.2,
+      "raw": "101.2",
+      "period": "2005"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y9",
+      "Vaatlusperiood": "2009",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2009"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "1998",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2000",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2001",
+      "value": 101.3,
+      "raw": "101.3",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2002",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2006",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "2006"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y10",
+      "Vaatlusperiood": "2010",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "2010"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1994",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "1994"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1997",
+      "value": 101.3,
+      "raw": "101.3",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1998",
+      "value": 101,
+      "raw": "101.0",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "1999",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "2001",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y11",
+      "Vaatlusperiood": "2007",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "2007"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1995",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "1995"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1996",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1998",
+      "value": 101.7,
+      "raw": "101.7",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "1999",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2000",
+      "value": 101.3,
+      "raw": "101.3",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y12",
+      "Vaatlusperiood": "2008",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "2008"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1993",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "1993"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1994",
+      "value": 103,
+      "raw": "103.0",
+      "period": "1994"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1996",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1997",
+      "value": 101.8,
+      "raw": "101.8",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1998",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "1998"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "1999",
+      "value": 103.2,
+      "raw": "103.2",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2000",
+      "value": 100.9,
+      "raw": "100.9",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2001",
+      "value": 101.1,
+      "raw": "101.1",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2002",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y13",
+      "Vaatlusperiood": "2003",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "2003"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "1994",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "1994"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "1995",
+      "value": 102.3,
+      "raw": "102.3",
+      "period": "1995"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "1997",
+      "value": 100.7,
+      "raw": "100.7",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "1999",
+      "value": 100.7,
+      "raw": "100.7",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2000",
+      "value": 101.4,
+      "raw": "101.4",
+      "period": "2000"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2001",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2002",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2002"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y14",
+      "Vaatlusperiood": "2004",
+      "value": 100.4,
+      "raw": "100.4",
+      "period": "2004"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "1996",
+      "value": 100.8,
+      "raw": "100.8",
+      "period": "1996"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "1997",
+      "value": 100.6,
+      "raw": "100.6",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "2001",
+      "value": 100.5,
+      "raw": "100.5",
+      "period": "2001"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "2005",
+      "value": 101,
+      "raw": "101.0",
+      "period": "2005"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y15",
+      "Vaatlusperiood": "2007",
+      "value": 100.1,
+      "raw": "100.1",
+      "period": "2007"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y16",
+      "Vaatlusperiood": "1997",
+      "value": 101.6,
+      "raw": "101.6",
+      "period": "1997"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y16",
+      "Vaatlusperiood": "1999",
+      "value": 100.7,
+      "raw": "100.7",
+      "period": "1999"
+    },
+    {
+      "Näitaja": "ENRL_RATE",
+      "Sugu": "F",
+      "Vanus": "Y16",
+      "Vaatlusperiood": "2007",
+      "value": 100.3,
+      "raw": "100.3",
+      "period": "2007"
+    }
+  ],
+  "changes": [
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 2009,
+      "delta": 15.399999999999999,
+      "before": 12,
+      "after": 27.4,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 2011,
+      "delta": -10.5,
+      "before": 32.9,
+      "after": 22.4,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 2005,
+      "delta": -8.799999999999999,
+      "before": 23.9,
+      "after": 15.1,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y25-34",
+      "metric": "EMPRATE",
+      "year": 2009,
+      "delta": -8.799999999999997,
+      "before": 81.3,
+      "after": 72.5,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y25-34",
+      "metric": "UNEMP_RATE",
+      "year": 2009,
+      "delta": 8.5,
+      "before": 4.7,
+      "after": 13.2,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y35-44",
+      "metric": "UNEMP_RATE",
+      "year": 2009,
+      "delta": 7.699999999999999,
+      "before": 4.4,
+      "after": 12.1,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y45-54",
+      "metric": "UNEMP_RATE",
+      "year": 2009,
+      "delta": 7.6,
+      "before": 5.5,
+      "after": 13.1,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "EMPRATE",
+      "year": 2009,
+      "delta": -7.5,
+      "before": 35.5,
+      "after": 28,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "LABOUR_RATE",
+      "year": 2002,
+      "delta": -7,
+      "before": 41.3,
+      "after": 34.3,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "UNEMP_RATE",
+      "year": 2010,
+      "delta": 7,
+      "before": 9.3,
+      "after": 16.3,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 2020,
+      "delta": 6.799999999999999,
+      "before": 11.1,
+      "after": 17.9,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y35-44",
+      "metric": "EMPRATE",
+      "year": 2009,
+      "delta": -6.799999999999997,
+      "before": 86.6,
+      "after": 79.8,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "EMPRATE",
+      "year": 2010,
+      "delta": -6.5,
+      "before": 60.3,
+      "after": 53.8,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y45-54",
+      "metric": "EMPRATE",
+      "year": 2009,
+      "delta": -6.3999999999999915,
+      "before": 83.3,
+      "after": 76.9,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y35-44",
+      "metric": "EMPRATE",
+      "year": 2006,
+      "delta": 5.900000000000006,
+      "before": 80.3,
+      "after": 86.2,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "EMPRATE",
+      "year": 2011,
+      "delta": 5.600000000000001,
+      "before": 25,
+      "after": 30.6,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 2010,
+      "delta": 5.5,
+      "before": 27.4,
+      "after": 32.9,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "LABOUR_RATE",
+      "year": 2002,
+      "delta": 5.5,
+      "before": 48.9,
+      "after": 54.4,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "EMPRATE",
+      "year": 2002,
+      "delta": 5.299999999999997,
+      "before": 44,
+      "after": 49.3,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "UNEMP_RATE",
+      "year": 2009,
+      "delta": 5.200000000000001,
+      "before": 4.1,
+      "after": 9.3,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "EMPRATE",
+      "year": 1995,
+      "delta": -5,
+      "before": 45.7,
+      "after": 40.7,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "EMPRATE",
+      "year": 1999,
+      "delta": -5,
+      "before": 37.1,
+      "after": 32.1,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y25-34",
+      "metric": "EMPRATE",
+      "year": 2006,
+      "delta": 4.900000000000006,
+      "before": 77.3,
+      "after": 82.2,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y45-54",
+      "metric": "EMPRATE",
+      "year": 2000,
+      "delta": -4.700000000000003,
+      "before": 77.3,
+      "after": 72.6,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "UNEMP_RATE",
+      "year": 2011,
+      "delta": -4.700000000000001,
+      "before": 16.3,
+      "after": 11.6,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y45-54",
+      "metric": "EMPRATE",
+      "year": 2006,
+      "delta": 4.599999999999994,
+      "before": 78.5,
+      "after": 83.1,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "EMPRATE",
+      "year": 2002,
+      "delta": -4.5,
+      "before": 32.6,
+      "after": 28.1,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "LABOUR_RATE",
+      "year": 2022,
+      "delta": 4.5,
+      "before": 40.3,
+      "after": 44.8,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "UNEMP_RATE",
+      "year": 2012,
+      "delta": -4.3999999999999995,
+      "before": 11.6,
+      "after": 7.2,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "EMPRATE",
+      "year": 2020,
+      "delta": -4.399999999999999,
+      "before": 39.1,
+      "after": 34.7,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y35-44",
+      "metric": "UNEMP_RATE",
+      "year": 2011,
+      "delta": -4.300000000000001,
+      "before": 14.3,
+      "after": 10,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "UNEMP_RATE",
+      "year": 2000,
+      "delta": 4.3,
+      "before": 7.2,
+      "after": 11.5,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "LABOUR_RATE",
+      "year": 1995,
+      "delta": -4.100000000000001,
+      "before": 51.7,
+      "after": 47.6,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "LABOUR_RATE",
+      "year": 1999,
+      "delta": -4.100000000000001,
+      "before": 44.1,
+      "after": 40,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y25-34",
+      "metric": "EMPRATE",
+      "year": 2021,
+      "delta": 4,
+      "before": 78.4,
+      "after": 82.4,
+      "methodBoundary": true
+    },
+    {
+      "age": "Y25-34",
+      "metric": "EMPRATE",
+      "year": 2022,
+      "delta": 4,
+      "before": 82.4,
+      "after": 86.4,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y65-74",
+      "metric": "EMPRATE",
+      "year": 2022,
+      "delta": 4,
+      "before": 24,
+      "after": 28,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y65-74",
+      "metric": "LABOUR_RATE",
+      "year": 2022,
+      "delta": 4,
+      "before": 24.4,
+      "after": 28.4,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y25-34",
+      "metric": "EMPRATE",
+      "year": 2015,
+      "delta": 3.9000000000000057,
+      "before": 77,
+      "after": 80.9,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 1992,
+      "delta": 3.9,
+      "before": 3.6,
+      "after": 7.5,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 1999,
+      "delta": 3.8999999999999986,
+      "before": 15.8,
+      "after": 19.7,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y35-44",
+      "metric": "LABOUR_RATE",
+      "year": 2006,
+      "delta": 3.799999999999997,
+      "before": 87.9,
+      "after": 91.7,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "LABOUR_RATE",
+      "year": 2003,
+      "delta": 3.700000000000003,
+      "before": 34.3,
+      "after": 38,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y35-44",
+      "metric": "EMPRATE",
+      "year": 2011,
+      "delta": 3.700000000000003,
+      "before": 77.8,
+      "after": 81.5,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y45-54",
+      "metric": "UNEMP_RATE",
+      "year": 2011,
+      "delta": -3.700000000000001,
+      "before": 15.4,
+      "after": 11.7,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 1993,
+      "delta": 3.6999999999999993,
+      "before": 7.5,
+      "after": 11.2,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y15-24",
+      "metric": "UNEMP_RATE",
+      "year": 2014,
+      "delta": -3.6999999999999993,
+      "before": 18.7,
+      "after": 15,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y45-54",
+      "metric": "LABOUR_RATE",
+      "year": 2000,
+      "delta": -3.6999999999999886,
+      "before": 87.1,
+      "after": 83.4,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y45-54",
+      "metric": "EMPRATE",
+      "year": 1999,
+      "delta": -3.6000000000000085,
+      "before": 80.9,
+      "after": 77.3,
+      "methodBoundary": false
+    },
+    {
+      "age": "Y55-64",
+      "metric": "EMPRATE",
+      "year": 2011,
+      "delta": 3.6000000000000014,
+      "before": 53.8,
+      "after": 57.4,
+      "methodBoundary": false
+    }
+  ],
+  "wageBridge": [
+    {
+      "year": 2013,
+      "age": "1",
+      "sex": "1",
+      "metric": "1",
+      "old": 900.11,
+      "current": 900.11,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "1",
+      "sex": "1",
+      "metric": "2",
+      "old": 509323,
+      "current": 509323,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "1",
+      "sex": "2",
+      "metric": "1",
+      "old": 1041.42,
+      "current": 1041.42,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "1",
+      "sex": "2",
+      "metric": "2",
+      "old": 238407,
+      "current": 238407,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "1",
+      "sex": "3",
+      "metric": "1",
+      "old": 775.75,
+      "current": 775.75,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "1",
+      "sex": "3",
+      "metric": "2",
+      "old": 270916,
+      "current": 270916,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "2",
+      "sex": "1",
+      "metric": "1",
+      "old": 607.27,
+      "current": 607.27,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "2",
+      "sex": "1",
+      "metric": "2",
+      "old": 39267,
+      "current": 39267,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "2",
+      "sex": "2",
+      "metric": "1",
+      "old": 690.63,
+      "current": 690.63,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "2",
+      "sex": "2",
+      "metric": "2",
+      "old": 19762,
+      "current": 19762,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "2",
+      "sex": "3",
+      "metric": "1",
+      "old": 522.82,
+      "current": 522.82,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "2",
+      "sex": "3",
+      "metric": "2",
+      "old": 19505,
+      "current": 19505,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "3",
+      "sex": "1",
+      "metric": "1",
+      "old": 1007.11,
+      "current": 1007.11,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "3",
+      "sex": "1",
+      "metric": "2",
+      "old": 288607,
+      "current": 288607,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "3",
+      "sex": "2",
+      "metric": "1",
+      "old": 1153.42,
+      "current": 1153.42,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "3",
+      "sex": "2",
+      "metric": "2",
+      "old": 142894,
+      "current": 142894,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "3",
+      "sex": "3",
+      "metric": "1",
+      "old": 863.62,
+      "current": 863.62,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "3",
+      "sex": "3",
+      "metric": "2",
+      "old": 145713,
+      "current": 145713,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "4",
+      "sex": "1",
+      "metric": "1",
+      "old": 831.87,
+      "current": 831.87,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "4",
+      "sex": "1",
+      "metric": "2",
+      "old": 142600,
+      "current": 142600,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "4",
+      "sex": "2",
+      "metric": "1",
+      "old": 961.26,
+      "current": 961.26,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "4",
+      "sex": "2",
+      "metric": "2",
+      "old": 59309,
+      "current": 59309,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "4",
+      "sex": "3",
+      "metric": "1",
+      "old": 739.73,
+      "current": 739.73,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "4",
+      "sex": "3",
+      "metric": "2",
+      "old": 83291,
+      "current": 83291,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "5",
+      "sex": "1",
+      "metric": "1",
+      "old": 651.72,
+      "current": 651.72,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "5",
+      "sex": "1",
+      "metric": "2",
+      "old": 38849,
+      "current": 38849,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "5",
+      "sex": "2",
+      "metric": "1",
+      "old": 778.87,
+      "current": 778.87,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "5",
+      "sex": "2",
+      "metric": "2",
+      "old": 16442,
+      "current": 16442,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "5",
+      "sex": "3",
+      "metric": "1",
+      "old": 558.42,
+      "current": 558.42,
+      "difference": 0
+    },
+    {
+      "year": 2013,
+      "age": "5",
+      "sex": "3",
+      "metric": "2",
+      "old": 22407,
+      "current": 22407,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "1",
+      "sex": "1",
+      "metric": "1",
+      "old": 954.02,
+      "current": 954.02,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "1",
+      "sex": "1",
+      "metric": "2",
+      "old": 518495,
+      "current": 518495,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "1",
+      "sex": "2",
+      "metric": "1",
+      "old": 1096.5,
+      "current": 1096.5,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "1",
+      "sex": "2",
+      "metric": "2",
+      "old": 242713,
+      "current": 242713,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "1",
+      "sex": "3",
+      "metric": "1",
+      "old": 828.63,
+      "current": 828.63,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "1",
+      "sex": "3",
+      "metric": "2",
+      "old": 275782,
+      "current": 275782,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "2",
+      "sex": "1",
+      "metric": "1",
+      "old": 636.22,
+      "current": 636.22,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "2",
+      "sex": "1",
+      "metric": "2",
+      "old": 38546,
+      "current": 38546,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "2",
+      "sex": "2",
+      "metric": "1",
+      "old": 722.86,
+      "current": 722.86,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "2",
+      "sex": "2",
+      "metric": "2",
+      "old": 19130,
+      "current": 19130,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "2",
+      "sex": "3",
+      "metric": "1",
+      "old": 550.86,
+      "current": 550.86,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "2",
+      "sex": "3",
+      "metric": "2",
+      "old": 19416,
+      "current": 19416,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "3",
+      "sex": "1",
+      "metric": "1",
+      "old": 1067.8,
+      "current": 1067.8,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "3",
+      "sex": "1",
+      "metric": "2",
+      "old": 293045,
+      "current": 293045,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "3",
+      "sex": "2",
+      "metric": "1",
+      "old": 1214.61,
+      "current": 1214.61,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "3",
+      "sex": "2",
+      "metric": "2",
+      "old": 145678,
+      "current": 145678,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "3",
+      "sex": "3",
+      "metric": "1",
+      "old": 922.68,
+      "current": 922.68,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "3",
+      "sex": "3",
+      "metric": "2",
+      "old": 147367,
+      "current": 147367,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "4",
+      "sex": "1",
+      "metric": "1",
+      "old": 884.03,
+      "current": 884.03,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "4",
+      "sex": "1",
+      "metric": "2",
+      "old": 144923,
+      "current": 144923,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "4",
+      "sex": "2",
+      "metric": "1",
+      "old": 1010.92,
+      "current": 1010.92,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "4",
+      "sex": "2",
+      "metric": "2",
+      "old": 60364,
+      "current": 60364,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "4",
+      "sex": "3",
+      "metric": "1",
+      "old": 793.45,
+      "current": 793.45,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "4",
+      "sex": "3",
+      "metric": "2",
+      "old": 84559,
+      "current": 84559,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "5",
+      "sex": "1",
+      "metric": "1",
+      "old": 693.19,
+      "current": 693.19,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "5",
+      "sex": "1",
+      "metric": "2",
+      "old": 41980,
+      "current": 41980,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "5",
+      "sex": "2",
+      "metric": "1",
+      "old": 817.62,
+      "current": 817.62,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "5",
+      "sex": "2",
+      "metric": "2",
+      "old": 17541,
+      "current": 17541,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "5",
+      "sex": "3",
+      "metric": "1",
+      "old": 603.88,
+      "current": 603.88,
+      "difference": 0
+    },
+    {
+      "year": 2014,
+      "age": "5",
+      "sex": "3",
+      "metric": "2",
+      "old": 24440,
+      "current": 24440,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "1",
+      "sex": "1",
+      "metric": "1",
+      "old": 1013.16,
+      "current": 1013.16,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "1",
+      "sex": "1",
+      "metric": "2",
+      "old": 520125,
+      "current": 520125,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "1",
+      "sex": "2",
+      "metric": "1",
+      "old": 1154.8,
+      "current": 1154.8,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "1",
+      "sex": "2",
+      "metric": "2",
+      "old": 243936,
+      "current": 243936,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "1",
+      "sex": "3",
+      "metric": "1",
+      "old": 888.07,
+      "current": 888.07,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "1",
+      "sex": "3",
+      "metric": "2",
+      "old": 276189,
+      "current": 276189,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "2",
+      "sex": "1",
+      "metric": "1",
+      "old": 677.82,
+      "current": 677.82,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "2",
+      "sex": "1",
+      "metric": "2",
+      "old": 35703,
+      "current": 35703,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "2",
+      "sex": "2",
+      "metric": "1",
+      "old": 762.64,
+      "current": 762.63,
+      "difference": -0.009999999999990905
+    },
+    {
+      "year": 2015,
+      "age": "2",
+      "sex": "2",
+      "metric": "2",
+      "old": 17586,
+      "current": 17586,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "2",
+      "sex": "3",
+      "metric": "1",
+      "old": 595.5,
+      "current": 595.5,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "2",
+      "sex": "3",
+      "metric": "2",
+      "old": 18117,
+      "current": 18117,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "3",
+      "sex": "1",
+      "metric": "1",
+      "old": 1132.38,
+      "current": 1132.38,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "3",
+      "sex": "1",
+      "metric": "2",
+      "old": 294766,
+      "current": 294766,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "3",
+      "sex": "2",
+      "metric": "1",
+      "old": 1277.37,
+      "current": 1277.37,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "3",
+      "sex": "2",
+      "metric": "2",
+      "old": 147499,
+      "current": 147499,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "3",
+      "sex": "3",
+      "metric": "1",
+      "old": 987.16,
+      "current": 987.16,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "3",
+      "sex": "3",
+      "metric": "2",
+      "old": 147267,
+      "current": 147267,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "4",
+      "sex": "1",
+      "metric": "1",
+      "old": 936.66,
+      "current": 936.66,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "4",
+      "sex": "1",
+      "metric": "2",
+      "old": 145208,
+      "current": 145208,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "4",
+      "sex": "2",
+      "metric": "1",
+      "old": 1057.8,
+      "current": 1057.8,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "4",
+      "sex": "2",
+      "metric": "2",
+      "old": 60569,
+      "current": 60569,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "4",
+      "sex": "3",
+      "metric": "1",
+      "old": 849.96,
+      "current": 849.96,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "4",
+      "sex": "3",
+      "metric": "2",
+      "old": 84639,
+      "current": 84639,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "5",
+      "sex": "1",
+      "metric": "1",
+      "old": 741.88,
+      "current": 741.88,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "5",
+      "sex": "1",
+      "metric": "2",
+      "old": 44447,
+      "current": 44447,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "5",
+      "sex": "2",
+      "metric": "1",
+      "old": 864.54,
+      "current": 864.54,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "5",
+      "sex": "2",
+      "metric": "2",
+      "old": 18282,
+      "current": 18282,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "5",
+      "sex": "3",
+      "metric": "1",
+      "old": 656.18,
+      "current": 656.18,
+      "difference": 0
+    },
+    {
+      "year": 2015,
+      "age": "5",
+      "sex": "3",
+      "metric": "2",
+      "old": 26166,
+      "current": 26166,
+      "difference": 0
+    },
+    {
+      "year": 2016,
+      "age": "1",
+      "sex": "1",
+      "metric": "1",
+      "old": 1073.01,
+      "current": 1077.71,
+      "difference": 4.7000000000000455
+    },
+    {
+      "year": 2016,
+      "age": "1",
+      "sex": "1",
+      "metric": "2",
+      "old": 519773,
+      "current": 522558,
+      "difference": 2785
+    },
+    {
+      "year": 2016,
+      "age": "1",
+      "sex": "2",
+      "metric": "1",
+      "old": 1213.77,
+      "current": 1221.25,
+      "difference": 7.480000000000018
+    },
+    {
+      "year": 2016,
+      "age": "1",
+      "sex": "2",
+      "metric": "2",
+      "old": 244230,
+      "current": 246833,
+      "difference": 2603
+    },
+    {
+      "year": 2016,
+      "age": "1",
+      "sex": "3",
+      "metric": "1",
+      "old": 948.25,
+      "current": 949.22,
+      "difference": 0.9700000000000273
+    },
+    {
+      "year": 2016,
+      "age": "1",
+      "sex": "3",
+      "metric": "2",
+      "old": 275543,
+      "current": 275724,
+      "difference": 181
+    },
+    {
+      "year": 2016,
+      "age": "2",
+      "sex": "1",
+      "metric": "1",
+      "old": 724.68,
+      "current": 729.14,
+      "difference": 4.460000000000036
+    },
+    {
+      "year": 2016,
+      "age": "2",
+      "sex": "1",
+      "metric": "2",
+      "old": 34070,
+      "current": 34275,
+      "difference": 205
+    },
+    {
+      "year": 2016,
+      "age": "2",
+      "sex": "2",
+      "metric": "1",
+      "old": 810.78,
+      "current": 818.79,
+      "difference": 8.009999999999991
+    },
+    {
+      "year": 2016,
+      "age": "2",
+      "sex": "2",
+      "metric": "2",
+      "old": 16567,
+      "current": 16758,
+      "difference": 191
+    },
+    {
+      "year": 2016,
+      "age": "2",
+      "sex": "3",
+      "metric": "1",
+      "old": 643.18,
+      "current": 643.37,
+      "difference": 0.19000000000005457
+    },
+    {
+      "year": 2016,
+      "age": "2",
+      "sex": "3",
+      "metric": "2",
+      "old": 17504,
+      "current": 17517,
+      "difference": 13
+    },
+    {
+      "year": 2016,
+      "age": "3",
+      "sex": "1",
+      "metric": "1",
+      "old": 1198.19,
+      "current": 1203.92,
+      "difference": 5.730000000000018
+    },
+    {
+      "year": 2016,
+      "age": "3",
+      "sex": "1",
+      "metric": "2",
+      "old": 295131,
+      "current": 297254,
+      "difference": 2123
+    },
+    {
+      "year": 2016,
+      "age": "3",
+      "sex": "2",
+      "metric": "1",
+      "old": 1342.17,
+      "current": 1350.53,
+      "difference": 8.3599999999999
+    },
+    {
+      "year": 2016,
+      "age": "3",
+      "sex": "2",
+      "metric": "2",
+      "old": 148694,
+      "current": 150732,
+      "difference": 2038
+    },
+    {
+      "year": 2016,
+      "age": "3",
+      "sex": "3",
+      "metric": "1",
+      "old": 1052,
+      "current": 1053.11,
+      "difference": 1.1099999999999
+    },
+    {
+      "year": 2016,
+      "age": "3",
+      "sex": "3",
+      "metric": "2",
+      "old": 146437,
+      "current": 146523,
+      "difference": 86
+    },
+    {
+      "year": 2016,
+      "age": "4",
+      "sex": "1",
+      "metric": "1",
+      "old": 990.19,
+      "current": 993.13,
+      "difference": 2.939999999999941
+    },
+    {
+      "year": 2016,
+      "age": "4",
+      "sex": "1",
+      "metric": "2",
+      "old": 144496,
+      "current": 144918,
+      "difference": 422
+    },
+    {
+      "year": 2016,
+      "age": "4",
+      "sex": "2",
+      "metric": "1",
+      "old": 1105,
+      "current": 1109.84,
+      "difference": 4.839999999999918
+    },
+    {
+      "year": 2016,
+      "age": "4",
+      "sex": "2",
+      "metric": "2",
+      "old": 60259,
+      "current": 60612,
+      "difference": 353
+    },
+    {
+      "year": 2016,
+      "age": "4",
+      "sex": "3",
+      "metric": "1",
+      "old": 908.06,
+      "current": 909.23,
+      "difference": 1.1700000000000728
+    },
+    {
+      "year": 2016,
+      "age": "4",
+      "sex": "3",
+      "metric": "2",
+      "old": 84237,
+      "current": 84306,
+      "difference": 69
+    },
+    {
+      "year": 2016,
+      "age": "5",
+      "sex": "1",
+      "metric": "1",
+      "old": 788.46,
+      "current": 789.02,
+      "difference": 0.5599999999999454
+    },
+    {
+      "year": 2016,
+      "age": "5",
+      "sex": "1",
+      "metric": "2",
+      "old": 46076,
+      "current": 46110,
+      "difference": 34
+    },
+    {
+      "year": 2016,
+      "age": "5",
+      "sex": "2",
+      "metric": "1",
+      "old": 900.43,
+      "current": 901.51,
+      "difference": 1.080000000000041
+    },
+    {
+      "year": 2016,
+      "age": "5",
+      "sex": "2",
+      "metric": "2",
+      "old": 18710,
+      "current": 18731,
+      "difference": 21
+    },
+    {
+      "year": 2016,
+      "age": "5",
+      "sex": "3",
+      "metric": "1",
+      "old": 711.9,
+      "current": 712.06,
+      "difference": 0.15999999999996817
+    },
+    {
+      "year": 2016,
+      "age": "5",
+      "sex": "3",
+      "metric": "2",
+      "old": 27366,
+      "current": 27379,
+      "difference": 13
+    },
+    {
+      "year": 2017,
+      "age": "1",
+      "sex": "1",
+      "metric": "1",
+      "old": 1154.97,
+      "current": 1154.97,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "1",
+      "sex": "1",
+      "metric": "2",
+      "old": 528735,
+      "current": 528735,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "1",
+      "sex": "2",
+      "metric": "1",
+      "old": 1304.86,
+      "current": 1304.86,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "1",
+      "sex": "2",
+      "metric": "2",
+      "old": 251329,
+      "current": 251329,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "1",
+      "sex": "3",
+      "metric": "1",
+      "old": 1019.17,
+      "current": 1019.17,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "1",
+      "sex": "3",
+      "metric": "2",
+      "old": 277406,
+      "current": 277406,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "2",
+      "sex": "1",
+      "metric": "1",
+      "old": 786.83,
+      "current": 786.83,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "2",
+      "sex": "1",
+      "metric": "2",
+      "old": 33187,
+      "current": 33187,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "2",
+      "sex": "2",
+      "metric": "1",
+      "old": 878.39,
+      "current": 878.39,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "2",
+      "sex": "2",
+      "metric": "2",
+      "old": 16235,
+      "current": 16235,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "2",
+      "sex": "3",
+      "metric": "1",
+      "old": 699.14,
+      "current": 699.14,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "2",
+      "sex": "3",
+      "metric": "2",
+      "old": 16953,
+      "current": 16953,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "3",
+      "sex": "1",
+      "metric": "1",
+      "old": 1290.21,
+      "current": 1290.21,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "3",
+      "sex": "1",
+      "metric": "2",
+      "old": 301030,
+      "current": 301030,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "3",
+      "sex": "2",
+      "metric": "1",
+      "old": 1442.94,
+      "current": 1442.94,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "3",
+      "sex": "2",
+      "metric": "2",
+      "old": 154029,
+      "current": 154029,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "3",
+      "sex": "3",
+      "metric": "1",
+      "old": 1130.17,
+      "current": 1130.17,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "3",
+      "sex": "3",
+      "metric": "2",
+      "old": 147001,
+      "current": 147001,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "4",
+      "sex": "1",
+      "metric": "1",
+      "old": 1062.32,
+      "current": 1062.32,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "4",
+      "sex": "1",
+      "metric": "2",
+      "old": 146236,
+      "current": 146236,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "4",
+      "sex": "2",
+      "metric": "1",
+      "old": 1181.76,
+      "current": 1181.76,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "4",
+      "sex": "2",
+      "metric": "2",
+      "old": 61569,
+      "current": 61569,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "4",
+      "sex": "3",
+      "metric": "1",
+      "old": 975.46,
+      "current": 975.46,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "4",
+      "sex": "3",
+      "metric": "2",
+      "old": 84666,
+      "current": 84666,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "5",
+      "sex": "1",
+      "metric": "1",
+      "old": 845.5,
+      "current": 845.49,
+      "difference": -0.009999999999990905
+    },
+    {
+      "year": 2017,
+      "age": "5",
+      "sex": "1",
+      "metric": "2",
+      "old": 48282,
+      "current": 48282,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "5",
+      "sex": "2",
+      "metric": "1",
+      "old": 957.89,
+      "current": 957.89,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "5",
+      "sex": "2",
+      "metric": "2",
+      "old": 19497,
+      "current": 19497,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "5",
+      "sex": "3",
+      "metric": "1",
+      "old": 769.37,
+      "current": 769.37,
+      "difference": 0
+    },
+    {
+      "year": 2017,
+      "age": "5",
+      "sex": "3",
+      "metric": "2",
+      "old": 28786,
+      "current": 28786,
+      "difference": 0
+    }
+  ]
+}
