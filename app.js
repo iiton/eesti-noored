@@ -1,3 +1,4 @@
+import {mountHeroTimeline} from './hero-timeline.js';
 import {ratio, gap, splitAtBreaks, flagLabel} from './data-utils.js';
 'use strict';
 (async()=>{
@@ -33,7 +34,7 @@ function download(filename,rows){const csv='\uFEFF'+rows.map(row=>row.map(v=>'"'
 document.querySelectorAll('[data-csv]').forEach(b=>b.onclick=()=>{const id=b.dataset.csv,t=exports.get(id);if(!t)return;download('noored-'+id+'.csv',chartCSV(t))});
 document.querySelectorAll('[data-table]').forEach(b=>b.onclick=()=>{const id=b.dataset.table,t=$(id+'-table');t.hidden=!t.hidden;b.setAttribute('aria-expanded',String(!t.hidden));b.textContent=t.hidden?'Näita tabelit':'Peida tabel';if(!t.hidden)renderChartTable(id)});
 document.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open){for(const n of d.querySelectorAll('.chart')){if(charts.has(n.id))charts.get(n.id).resize();else if(pending.has(n.id)&&n.clientWidth){const c=echarts.init(n,null,{renderer:'svg'});charts.set(n.id,c);c.setOption(pending.get(n.id));new ResizeObserver(()=>c.resize()).observe(n)}}}}));
-for(const [count,color]of [[17,'#60c3ae'],[17,'#b7d7df'],[55,'#f0c674'],[11,'#ef8f82']])for(let i=0;i<count;i++){const el=document.createElement('span');el.className='dot';el.style.background=color;$('hero-dots').append(el)}
+mountHeroTimeline(D.overlap['Y15-24'].T);
 function core(){const m=$('core-metric').value,s=$('core-sex').value,start=+$('core-start').value;plot('employment',Object.keys(D.core).map((a,i)=>series(labels[a]+' a',D.core[a][s][m].filter(x=>+x[0]>=start),C[i])),{unit:m.endsWith('_NR')?'tuhat':'%',breaks:[1995,2000,2021]})}['core-metric','core-sex','core-start'].forEach(id=>$(id).onchange=core);core();
 const youth=D.core['Y15-24'].T;const unShare=youth.UNEMP_NR.map(([y,v])=>{const n=at(youth.LABOUR_INACT,y);return [y,v===null||!n?null:100*v/n]});
 plot('unemployment',[series('Töötuse määr',youth.UNEMP_RATE.filter(x=>+x[0]>=2000),C[2]),series('Töötud kõigist noortest',unShare.filter(x=>+x[0]>=2000),C[0])],{unit:'%',breaks:[2021]});
