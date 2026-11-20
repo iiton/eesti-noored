@@ -5,3 +5,5 @@
 .text-card p+p{margin-top:16px}@media(max-width:450px){.controls label{flex-basis:100%}.controls select{font-size:16px}.chart-bottom .text-button{min-height:44px;display:inline-flex;align-items:center}}
 
 .cohort-hero .hero-inner{grid-template-columns:1.4fr 1fr}.cohort-big{font-size:86px;line-height:1.1;letter-spacing:-.06em;color:#79d5bf;margin:12px 0 20px}.cohort-hero .hero-panel p:not(.eyebrow):not(.cohort-big){color:#cee0e3}.cohort-kpis{grid-template-columns:repeat(3,1fr)}#model-forest{height:450px}#cohort-decomposition{height:240px}#cohort-scatter{height:420px}#cohort-paths{height:420px}#model-results{margin:24px 0}#model-diagnostics p{margin:15px 0}@media(max-width:720px){.cohort-hero .hero-inner{grid-template-columns:1fr}.cohort-kpis{grid-template-columns:1fr}.cohort-big{font-size:70px}#model-forest{height:480px}#cohort-scatter,#cohort-paths{height:380px}}
+
+@media(min-width:1000px){.nav>div{flex-wrap:wrap;white-space:normal;gap:8px 22px}}
